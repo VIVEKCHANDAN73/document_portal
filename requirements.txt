@@ -1,13 +1,16 @@
 langchain
-ipykernel
 python-dotenv
-langchain
-langchain_community
-groq
+ipykernel
 langchain_groq
 langchain_google_genai
+langchain_community
 pypdf
 faiss-cpu
 structlog
 PyMuPDF
+pandas
+streamlit
+langchain-core[tracing]
+pytest
+streamlit
 -e .
