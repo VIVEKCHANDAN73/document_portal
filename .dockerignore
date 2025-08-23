@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.git
+.gitignore
+*.log
+logs/
+document_portal.egg-info
+data/
+doc/session/temporary files
+data/
+logs/
+__pycache__/
+*.pdf
+*.docx
+*.DS_Store
+.env
+session_*/

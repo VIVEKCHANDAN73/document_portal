@@ -1,6 +1,7 @@
 faiss_db:
   collection_name: "document_portal"
 
+
 embedding_model:
   provider: "google"
   model_name: "models/text-embedding-004"
@@ -20,7 +21,3 @@ llm:
     model_name: "gemini-2.0-flash"
     temperature: 0
     max_output_tokens: 2048
-
-    
-
-
