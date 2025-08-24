@@ -26,7 +26,7 @@ app = FastAPI(title="Document Portal API", version="0.1")
 BASE_DIR = Path(__file__).resolve().parent.parent
 app.mount("/static", StaticFiles(directory=str(BASE_DIR / "static")), name="static")
 templates = Jinja2Templates(directory=str(BASE_DIR / "templates"))
-
+#
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
